@@ -8,10 +8,10 @@ class Footer extends Component {
         <Grid fluid>
           <p className="copyright pull-right">
             &copy; {new Date().getFullYear()}{" "}
-            <a href="https://fb.com/connectwithnoor">
-              Noor Muhammad
+            <a href="https://github.com/KhushiRajpal">
+              Team Coding Clowns
             </a>
-            , Semester Project Database Systems
+            , Semester Project PBL
           </p>
         </Grid>
       </footer>
