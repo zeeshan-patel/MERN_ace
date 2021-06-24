@@ -7,8 +7,8 @@ const Hero = () => {
         <React.Fragment>
             <Row className="align-items-center justify-content-center hero-mt">
                 <Col md={10} className="text-center">
-                    <h1 className="mb-4 text-white hero-text-h1">Are you ready for the upcoming challenge</h1>
-                    <p className="mb-4 text-white hero-text-p">May 17, 2019 • DHA Suffa University</p>
+                    <h1 className="mb-4 text-white hero-text-h1">It Starts With Us. </h1>
+                    <p className="mb-4 text-white hero-text-p">May 21, 2021 ACE MESCOE</p>
                     <p>
                         <Button size="sm" href="/register" variant="primary" className="px-4 py-3">
                             Register Now

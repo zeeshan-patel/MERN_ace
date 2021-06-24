@@ -245,7 +245,7 @@ class Footer extends Component {
             <Row className="row justify-content-center">
               <Col md={6} col={12}>
                 <center>
-                  <p className="cp"> Copyright &copy; Eventia 2019 </p>
+                  <p className="cp"> Copyright &copy; ACE 2021 </p>
                 </center>
               </Col>
             </Row>

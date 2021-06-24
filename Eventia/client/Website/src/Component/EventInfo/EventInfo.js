@@ -9,7 +9,7 @@ const EventInfo = () => {
             <Container>
                 <Row className="align-items-center justify-content-center mt-5">
                     <Col sm={12} className="text-center">
-                        <h1 className="text-h1">About Eventia</h1>
+                        <h1 className="text-h1">About ACE</h1>
                     </Col>
                 </Row>
                 <Row className="justify-content-start">
@@ -23,12 +23,12 @@ const EventInfo = () => {
 
                 <Row className="align-items-center justify-content-center mt-3">
                     <Col sm={10} md={9} lg={8}>
-                        <p className="text-p-eventInfo">It’s a terrific blend of computer science, electrical and electronics engineering, business studies arts & literature and which have become the need of industries today. In today’s cut-throat competitions, speed and efficiency of software backed by a blend of engineering technologies, an engineer's analytical ability and a businessman's sound knowledge of the market create products which comply with the needs of the business. This blend is sure to provide extremely important impetus to the efforts of the young people behind the products.</p>
+                        <p className="text-p-eventInfo">ACE has been around for 10 glorious years now, as a celebration of life, and people - the people who build it , the artists and the stars who win all our hearts and most importantly, the lovely people who keep coming back, the moments they share, the experiences they have and and the strings that keep them connected forever to the 4 best days of their lives. It is you who make ACE the spectacle it is. </p>
                     </Col>
                 </Row >
                 <Row className="align-items-center justify-content-center mt-3">
                     <Col sm={10} md={9} lg={8}>
-                        <p className="text-p-eventInfo"><span class ="text-primary font-weight-bold">Eventia</span> a step towards further enforcing the commitment of FAST for the development of Information Technology and Engineering Science related fields in Pakistan.</p>
+                        <p className="text-p-eventInfo"><span class ="text-primary font-weight-bold">ACE</span> Come Join Us.</p>
                     </Col>
                 </Row>
                 <Row className="justify-content-center">

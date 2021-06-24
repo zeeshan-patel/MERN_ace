@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\node.exe',
+1 verbose cli   'C:\\Users\\Khushi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'npm@latest',
+1 verbose cli   '-g'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v14.16.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData npm@latest
+8 silly fetchNamedPackageData npm
+9 silly mapToRegistry name npm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'npm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'npm',
+12 silly mapToRegistry   name: 'npm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag'
+12 silly mapToRegistry }
+13 silly mapToRegistry uri https://registry.npmjs.org/npm
+14 verbose request uri https://registry.npmjs.org/npm
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:36:39 pm
+17 verbose request id 8443fc220f90f142
+18 verbose etag W/"d910b5953a6b4d8c8963c5098d6e95ff"
+19 verbose lastModified Thu, 17 Jun 2021 18:55:39 GMT
+20 http request GET https://registry.npmjs.org/npm
+21 http 304 https://registry.npmjs.org/npm
+22 verbose headers {
+22 verbose headers   date: 'Thu, 24 Jun 2021 10:07:36 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '6645266e4a662e0b-BOM',
+22 verbose headers   age: '951',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"d910b5953a6b4d8c8963c5098d6e95ff"',
+22 verbose headers   'last-modified': 'Thu, 17 Jun 2021 18:55:39 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cf-request-id': '0adf1658f300002e0b6832d000000001',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   server: 'cloudflare'
+22 verbose headers }
+23 silly get cb [
+23 silly get   304,
+23 silly get   {
+23 silly get     date: 'Thu, 24 Jun 2021 10:07:36 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '6645266e4a662e0b-BOM',
+23 silly get     age: '951',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"d910b5953a6b4d8c8963c5098d6e95ff"',
+23 silly get     'last-modified': 'Thu, 17 Jun 2021 18:55:39 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cf-request-id': '0adf1658f300002e0b6832d000000001',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     server: 'cloudflare'
+23 silly get   }
+23 silly get ]
+24 verbose etag https://registry.npmjs.org/npm from cache
+25 verbose get saving npm to C:\Users\Khushi\AppData\Roaming\npm-cache\registry.npmjs.org\npm\.cache.json
+26 verbose correctMkdir C:\Users\Khushi\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 verbose stack TypeError: cb.apply is not a function
+27 verbose stack     at C:\Users\Khushi\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+27 verbose stack     at FSReqCallback.oncomplete (fs.js:184:5)
+28 verbose cwd C:\Users\Khushi\Desktop\last_try\Eventia\Eventia\client\admin
+29 error Windows_NT 10.0.19041
+30 error argv "D:\\node.exe" "C:\\Users\\Khushi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "npm@latest" "-g"
+31 error node v14.16.1
+32 error npm  v3.10.10
+33 error cb.apply is not a function
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]

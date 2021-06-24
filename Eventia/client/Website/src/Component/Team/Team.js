@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap'
 import styled from 'styled-components';
-import usama from '../../assets/img/usama.jpg';
-import noor from '../../assets/img/noor.jpg';
-import darij from '../../assets/img/darij.jpg';
+import harsheen from '../../assets/img/harsheen.jpeg';
+import taibah from '../../assets/img/taibah.jpeg';
+import arpan from '../../assets/img/arpan.jpeg';
 
 const Styles = styled.div`
 
@@ -125,9 +125,9 @@ const Organizers = () => {
             <Col className="try" md={4} sm={6} >
 
               <Col className="Lower">
-                <img src={darij} alt="temp" className="team-img" />
+                <img src={arpan} alt="temp" className="team-img" />
                 <Col className="info">
-                  <h5 className="name">Syed Darij Ali</h5>
+                  <h5 className="name">Arpan Khuniya</h5>
                   <p className="pos"> Head Website Designer </p>
                 </Col>
               </Col>
@@ -137,9 +137,9 @@ const Organizers = () => {
             <Col className="try" md={4} sm={6} >
 
               <Col className="Lower">
-                <img src={noor} alt="temp" className="team-img" />
+                <img src={taibah} alt="temp" className="team-img" />
                 <Col className="info">
-                  <h5 className="name">Noor Muhammad</h5>
+                  <h5 className="name">Taibah Bagwan</h5>
                   <p className="pos"> Head Database and Admin Panel </p>
                 </Col>
               </Col>
@@ -149,9 +149,9 @@ const Organizers = () => {
             <Col className="try" md={4} sm={6} >
 
               <Col className="Lower">
-                <img src={usama} alt="temp" className="team-img" />
+                <img src={harsheen} alt="temp" className="team-img" />
                 <Col className="info">
-                  <h5 className="name">Usama Imran</h5>
+                  <h5 className="name">Harsheen Rajpal</h5>
                   <p className="pos"> Head Graphic Designer and Database </p>
                 </Col>
               </Col>

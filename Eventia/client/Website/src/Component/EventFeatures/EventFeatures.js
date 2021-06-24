@@ -94,14 +94,14 @@ const EventFeatures = () => {
                     <Col className="try" md={4} sm={6} >
                         <img src={c3} className="imge" alt="img11" />
                         <center>
-                            <h4 style={{color: 'black',marginTop:0}}> Food Festival for All </h4>
+                            <h4 style={{color: 'black',marginTop:0}}> Win big</h4>
                         </center>
                     </Col>
 
                     <Col className="try" md={4} sm={6} >
                         <img src={c4} className="imge" alt="img11" />
                         <center>
-                            <h4 style={{color: 'black',marginTop:0}}> Free Arcade Games </h4>
+                            <h4 style={{color: 'black',marginTop:0}}> Make college memories :) </h4>
                         </center>
                     </Col>
 

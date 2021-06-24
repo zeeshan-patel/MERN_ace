@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap'
 import styled from 'styled-components';
 
-import cs from '../../assets/img/cs.svg'
-import fifa from '../../assets/img/fifa.svg'
-import pubg from '../../assets/img/pubg.svg'
-import nfs from '../../assets/img/nfs.svg'
+import animato from '../../assets/img/animato.svg'
+import cooking from '../../assets/img/cooking.svg'
+import king_memes from '../../assets/img/king_memes.svg'
+import astro from '../../assets/img/astro.svg'
 import dota2 from '../../assets/img/dota2.svg'
 
 const Styles=styled.div`
@@ -75,23 +75,23 @@ const Competitions = () => {
                 <Row className="Row1">
 
                     <Col className="try" md={4} sm={6} zoom>
-                        <img src={cs} className="competition-img-align" alt="img11" />
+                        <img src={animato} className="competition-img-align" alt="img11" />
                         <center>
-                            <h4  style={{color: 'black',marginBottom:20,}}> Counter Strike 1.6 </h4>
+                            <h4  style={{color: 'black',marginBottom:20,}}> Animato </h4>
                         </center>
                     </Col>
 
                     <Col className="try" md={4} sm={6} >
-                        <img src={fifa} className="competition-img-align" alt="img11" />
+                        <img src={cooking} className="competition-img-align" alt="img11" />
                         <center>
-                            <h4 style={{color: 'black', textAlign: 'center',}}> Fifa 19 </h4>
+                            <h4 style={{color: 'black', textAlign: 'center',}}> Cooking Algo </h4>
                         </center>
                     </Col>
 
                     <Col className="try" md={4} sm={6} >
-                        <img src={pubg} className="competition-img-align" alt="img11" />
+                        <img src={king_memes} className="competition-img-align" alt="img11" />
                         <center>
-                            <h4 style={{color: 'black', textAlign: 'center'}}> PubG </h4>
+                            <h4 style={{color: 'black', textAlign: 'center'}}> King memes </h4>
                         </center>
                     </Col>
 
@@ -103,9 +103,9 @@ const Competitions = () => {
                     </Col>
 
                     <Col className="try" md={4} sm={6} >
-                        <img src={nfs} className="competition-img-align" alt="img11" />
+                        <img src={astro} className="competition-img-align" alt="img11" />
                         <center>
-                            <h4 style={{color: 'black', textAlign: 'center',}}> NFS World </h4>
+                            <h4 style={{color: 'black', textAlign: 'center',}}> Astro World </h4>
                         </center>
                     </Col>
                </Row>
