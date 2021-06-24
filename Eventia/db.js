@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '#urthemusicinme123',
-    database: 'Eventia'
+    database: 'ace'
 });
 
 connection.connect((err) => {
